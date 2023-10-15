@@ -8,3 +8,4 @@ CREATE TABLE names (
 
 INSERT INTO names (id, name) VALUES (1, "フランク・ダラボン");
 INSERT INTO names (id, name) VALUES (2, "片渕須直");
+INSERT INTO names (id, name) VALUES (3, "宮崎駿");
