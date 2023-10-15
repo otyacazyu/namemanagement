@@ -4,14 +4,10 @@ import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Select;
 
 import java.util.List;
-import java.util.Optional;
 
 @Mapper
 public interface NameMapper {
 
-    @Select("SELECT id FROM name")
+    @Select("SELECT * FROM name")
     List<Name> findAll();
-
-    @Select("SELECT * FROM name WHERE id = #{id}")
-    Optional<Name> findById(int id);
 }
