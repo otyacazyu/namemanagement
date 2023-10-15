@@ -3,10 +3,10 @@ package com.otya.namemanagement;
 public class Name {
 
     private int id;
-    
-    private string name;
 
-    public Name(int id, string name) {
+    private String name;
+
+    public Name(int id, String name) {
         this.id = id;
         this.name = name;
     }
@@ -15,7 +15,7 @@ public class Name {
         return id;
     }
 
-    public string getName() {
+    public String getName() {
         return name;
     }
 }
