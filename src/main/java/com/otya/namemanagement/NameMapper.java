@@ -9,7 +9,7 @@ import java.util.Optional;
 @Mapper
 public interface NameMapper {
 
-    @Select("SELECT name FROM name")
+    @Select("SELECT id FROM name")
     List<Name> findAll();
 
     @Select("SELECT * FROM name WHERE id = #{id}")
