@@ -8,6 +8,6 @@ import java.util.List;
 @Mapper
 public interface NameMapper {
 
-    @Select("SELECT * FROM name")
+    @Select("SELECT * FROM names")
     List<Name> findAll();
 }
